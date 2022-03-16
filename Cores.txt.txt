@@ -1,0 +1,5 @@
+--azul-da-pagina: #c5dbf2;
+--begie-da-imagem: #f7d5c5;
+--azul-do-botao: #007c89;
+--preto: #0c0d0d;
+--cinza: #67696b;

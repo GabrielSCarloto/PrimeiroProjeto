@@ -1,0 +1,147 @@
+/*CSS reset*/
+
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+@font-face {
+    font-family:LibreBaskerville-Bold;
+    src: url(fonte/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family:LibreBaskerville-Regular;
+    src: url(fonte/LibreBaskerville-Regular.ttf);
+}
+
+
+@font-face {
+    font-family:Fredoka;
+    src: url(fonte/Fredoka-VariableFont_wdth,wght);
+}
+
+body {
+    font-family:Fredoka;
+    background-color:#c5dbf2;
+}
+
+main {
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color:#c5dbf2;
+    margin:auto;
+}   
+
+#links_esquerda {
+    position:relative;
+    float:left;
+    width:29%;
+    height:30px;
+    padding-top:18px;
+    padding-left:25px;
+}
+
+#links_esquerda a {
+    color:#000;
+    text-decoration:none;
+    font-family:Fredoka;
+    font-size:15px;
+    margin-right:35px;
+}
+
+#links_esquerda a:hover {
+    color:#0e79ec;
+    transition:0.5s all;
+}
+
+#logo {
+    position:relative;
+    float:left;
+    padding-top:5px;
+    padding-left:14%;
+}
+
+#lupa_carrinho {
+    position:relative;
+    float:left;
+    padding-top:10px;
+    padding-left:8.5%;
+    margin-right:15px;
+}
+
+#Conectar {
+    position:relative;
+    float:left;
+    margin-top:5px;
+    margin-right:20px;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	color:#000;
+    background-color:#c5dbf2;
+    border:1px solid black;
+}
+
+#Cadastro {
+    position:relative;
+    float:left;
+    margin-top:5px;
+	width: 215px;
+	height: 40px;
+	font-size: 15px;
+	color:#FFF;
+    background-color:#007c89;
+}
+
+#Conectar:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	transition: 1s all;
+}
+
+#Cadastro:hover {
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	transition:1s all;
+}
+
+article{
+	font-size:35px;
+	font-family:LibreBaskerville-Bold;
+}
+
+article h1 {
+    clear:both;
+	position:relative;
+	padding-top:200px;
+	padding-left:200px;
+}
+
+article p {
+    font-family:Fredoka;
+	position:absolute;
+	margin-top:31%;
+	margin-left:18%;
+	font-size:27px;
+}
+
+#SaibaMais {
+	font-size:19px;
+	margin-top:40%;
+	margin-left:-15.2%;
+	color:white;
+	padding:2%;
+	height:30px;
+	line-height:3px;
+	background-color:#007c89;
+}
+
+#SaibaMais:hover{
+	background-color:black;
+	transition:1s all;
+}
